@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/comparison.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="./index.html" class="href">Home</a>
+        <a href="./graphpage.html" class="href">Graph</a>
+        <a href="./inputPage.html" class="href">Input</a>
+        <a href="./comparisonpage.html" class="href">Comparison</a>
+        <a href="./aboutUs.html" class="href">About us</a>
+        <a href="./LoginPage.html" class="href">Login/Register</a>
+        <form action=""><input type="text" placeholder="(under maintainance)"><button type="submit" class="submit">Go</button>
+        </form>
+    </div>
+
+    <!-- <h2 class="page-header">Comparison</h2> -->
+
+    <div class="wrapper">
+        <div class="searchitem">
+            <form action="" type="text" id="searchTerm" class="form" onsubmit="event.preventDefault(); displayData()">
+                <input type="text" class="searchinput" placeholder="Search" autocomplete="off" onkeyup="search()">
+                <button class="submit" type="submit" placehodler="Search">Search</button>
+            </form>
+        </div>
+
+        <tbody id="tableBody">
+            <tr></tr>
+        </tbody>        
+
+        <div class="table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Price</th>
+                        <th>Location</th>
+                    </tr>
+                    <tbody id="tableBody">
+                        <tr></tr>
+                    </tbody>                    
+                </thead>
+                <tbody>
+                    <tr></tr>
+                </tbody>
+            </table>
+        </div>
+    </div> 
+    <script src="../javascript/displayData.js"></script>
+    <footer>
+        <p>&copy; 2023 Group_8 Production. All rights reserved XD.</p>
+      </footer>
+</body>
+
+</html>
